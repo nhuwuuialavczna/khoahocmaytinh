@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vcxz</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.12/marked.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/javascripts/markdown.js"></script>
+</head>
+<body>
+<div id="preview"></div>
+
+<script>
+    var preview = document.getElementById("preview");
+    preview.innerHTML = markdown.toHTML('<%=title%>');
+</script>
+</body>
+</html>
