@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/boostrap/css/bootstrap.min.css"/>
+    <script src="/javascripts/jquery-3.2.1.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btnRegister").on('click', function () {
+                $.ajax({
+                    url: "https://freegeoip.net/json/",
+                    success: function (dataOfUser) {
+                        var obj = {
+                            ip: dataOfUser.ip,
+                            region_code: dataOfUser.region_code,
+                            latitude: dataOfUser.latitude,
+                            longitude: dataOfUser.longitude
+                        };
+                        $("#re").html(JSON.stringify(obj));
+                    }
+                });
+            });
+
+            $("#btnLogin").on('click', function () {
+                $("#re").html('Đang đăng nhập');
+                $.ajax({
+                    url: "https://freegeoip.net/json/",
+                    success: function (dataOfUser) {
+                        var obj = {
+                            ip: dataOfUser.ip,
+                            region_code: dataOfUser.region_code,
+                            latitude: dataOfUser.latitude,
+                            longitude: dataOfUser.longitude
+                        };
+                        var data = JSON.stringify(obj);
+                        $.ajax({
+                            url: "/auth/login?data=" + data,
+                            success: function (r) {
+                                var re = r.data;
+                                if (re === 'ok') {
+                                    window.location.href = "/index";
+                                } else {
+                                    $("#re").html('Đăng nhập không thành công. Liên hệ admin!')
+                                }
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+    <title>Chứng thực</title>
+</head>
+<body style="font-family: monospace">
+<div class="container">
+    <div class="row">
+        <div align="center">
+            <h1>Xin hãy đăng nhập trước khi vào hệ thống. </h1>
+            <div class="col-lg-12">
+                <div style="font-size: large">
+                    <h3> * Đăng nhập: Hệ thống sẽ lấy địa chỉ ip và một vài thông tin khác. Việc đăng nhập là hoàn toàn
+                        tự động.
+                        Bạn không cần nhập bất kì thông tin nào</h3>
+                    <h3>* Đăng kí:Bạn hãy bấm vào đăng kí. Nhận được 1 số thông tin.
+                        Bạn có thể gửi nó cho tôi để hoàn tất đăng kí. Liên hệ với tôi qua facebook nhé.
+                        <a href="https://www.facebook.com/profile.php?id=100009115420843">Vào FB</a></h3>
+                </div>
+                <hr>
+            </div>
+            <hr>
+            <h3 id="re"></h3>
+            <div align="center">
+                <button id="btnLogin" class="btn btn-default">Đăng nhập</button>
+                <button id="btnRegister" class="btn btn-default">Đăng kí</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
