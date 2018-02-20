@@ -5,9 +5,75 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/boostrap/css/bootstrap.min.css"/>
+    <script src="/javascripts/jquery-3.2.1.js"></script>
+    <script src="/database/AI.js"></script>
+    <script src="/database/ATM.js"></script>
+    <script src="/database/CPDS.js"></script>
+    <script src="/database/DSA.js"></script>
+    <script src="/database/LT.js"></script>
+    <script src="/database/LTDT.js"></script>
+
     <title>Trang chủ</title>
+    <script>
+        $(document).ready(function () {
+            function create(ds) {
+                ds.forEach(function (v) {
+                    var opt = document.createElement('option');
+                    opt.value = v.id;
+                    opt.innerHTML = v.name;
+                    $("#chuong").append(opt);
+
+                })
+            }
+
+            $("#monhoc").on('change', function () {
+                $("#chuong")[0].options.length = 0;
+                var val = $("#monhoc").val();
+                if (val === 'ai') {
+                    create(listAI);
+                }
+                if (val === 'atm') {
+                    create(listATM);
+                }
+                if (val === 'cpds') {
+                    create(listCPDS);
+                }
+                if (val === 'dsa') {
+                    create(listDSA);
+                }
+                if (val === 'lt') {
+                    create(listLT);
+                }
+                if (val === 'ltdt') {
+                    create(listLTDT);
+                }
+
+            });
+            $('#goto').on('click', function () {
+                var folder = $("#monhoc").val();
+                var fileName = $('#chuong').val();
+                window.location.href = "/"+folder+"?name="+fileName;
+            });
+        });
+    </script>
 </head>
 <body>
+<div class="container">
+    <select id="monhoc">
+        <option value="">Mời bạn chọn 1 môn nào đó</option>
+        <option value="ai">Trí tuệ nhân tạo</option>
+        <option value="atm">Automata và ngôn ngữ hình thức</option>
+        <option value="cpds">Trình biên dịch - Compiler design</option>
+        <option value="dsa">Cấu trúc dữ liệu và giải thuật</option>
+        <option value="lt">Logic toán</option>
+        <option value="ltdt">Lý thuyết đồ thị</option>
+    </select>
 
+    <select id="chuong">
+
+    </select>
+    <button id="goto">Xem nội dung này</button>
+</div>
 </body>
 </html>

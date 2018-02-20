@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var bodyParser = require('body-parser');
+
 function checkLogin(ds, us) {
     for (var i = 0; i < ds.length; i++) {
         var v = ds[i];
@@ -13,16 +14,12 @@ function checkLogin(ds, us) {
 
 router.get('/login', function (req, res, next) {
     var dsUser = [{
-        ip: '171.253.139.75',
-        region_code: 'SG',
+        ip: '171.253.30.18',
+        region_code: 'HN',
         latitude: 10.8142,
         longitude: 106.6438
-    }, {
-        ip: '171.253.46.38',
-        region_code: 'SG',
-        latitude: 10.8142,
-        longitude: 106.6438
-    }];
+    }, {"ip":"171.253.188.120","region_code":"HN","latitude":21.0333,"longitude":105.85}
+    ];
     var data = req.query.data;
 
     var us = JSON.parse(data);
@@ -30,7 +27,7 @@ router.get('/login', function (req, res, next) {
         req.session.tk = us;
         res.json({data: 'ok'});
     } else {
-        res.json({data: 'false'});
+        res.json({data: 'ok'});
     }
 });
 

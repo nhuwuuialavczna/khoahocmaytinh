@@ -1,4 +1,4 @@
-Chương 1 - Giưới thiệu về sự biên dịch
+Chương 1 - Giới thiệu về sự biên dịch
 ====================================================
 Để máy tính có thể thực thi một chương trinh với ngôn ngữ cấp cao ta cần phải có 1 trình biên dịch thực hiện việc chuyển đổi chương trình đó sang chương trình dạng
 ngôn ngữ đích
