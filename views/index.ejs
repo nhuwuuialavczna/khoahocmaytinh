@@ -18,6 +18,10 @@
     <script>
         $(document).ready(function () {
             function create(ds) {
+                var opt = document.createElement('option');
+                opt.value = '';
+                opt.innerHTML = 'Mời bạn chọn 1 bài nào đó';
+                $("#chuong").append(opt);
                 ds.forEach(function (v) {
                     var opt = document.createElement('option');
                     opt.value = v.id;
@@ -53,27 +57,44 @@
             $('#goto').on('click', function () {
                 var folder = $("#monhoc").val();
                 var fileName = $('#chuong').val();
-                window.location.href = "/"+folder+"?name="+fileName;
+                if (folder === '' || fileName === '') {
+                    $('#re').html('Xin hãy chọn đầy đủ thông tin');
+                } else {
+                    window.location.href = "/" + folder + "?name=" + fileName;
+                }
             });
         });
     </script>
 </head>
-<body>
+<body style="font-family: monospace">
 <div class="container">
-    <select id="monhoc">
-        <option value="">Mời bạn chọn 1 môn nào đó</option>
-        <option value="ai">Trí tuệ nhân tạo</option>
-        <option value="atm">Automata và ngôn ngữ hình thức</option>
-        <option value="cpds">Trình biên dịch - Compiler design</option>
-        <option value="dsa">Cấu trúc dữ liệu và giải thuật</option>
-        <option value="lt">Logic toán</option>
-        <option value="ltdt">Lý thuyết đồ thị</option>
-    </select>
+    <div class="col-lg-12">
+        <h3>
+            <p>Xin chào bạn đã đến với hệ thống tài liệu khoa học máy tính online.</p>
+            <p>Để đọc 1 tài liệu nào đó các bạn hãy
+                chọn môn rồi chọn chương muốn xem</p>
+            <p>Bộ tài liệu đang được hình thành dần dần. Các bạn có thể gia nhập vào đội bằng cách liên hệ với tôi
+                qua <a href="https://www.facebook.com/profile.php?id=100009115420843">facebook</a> nha</p>
+            <p></p>
+        </h3>
+        
+        <select class="form-control" id="monhoc">
+            <option value="">Mời bạn chọn 1 môn nào đó</option>
+            <option value="ai">Trí tuệ nhân tạo</option>
+            <option value="atm">Automata và ngôn ngữ hình thức</option>
+            <option value="cpds">Trình biên dịch - Compiler design</option>
+            <option value="dsa">Cấu trúc dữ liệu và giải thuật</option>
+            <option value="lt">Logic toán</option>
+            <option value="ltdt">Lý thuyết đồ thị</option>
+        </select>
+        <br>
+        <select class="form-control" id="chuong">
 
-    <select id="chuong">
-
-    </select>
-    <button id="goto">Xem nội dung này</button>
+        </select>
+        <hr>
+        <p id="re" style="color: red"></p>
+        <button class="btn bg-primary" id="goto">Xem nội dung này</button>
+    </div>
 </div>
 </body>
 </html>
