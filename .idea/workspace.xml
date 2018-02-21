@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="958f6697-b13b-47e9-8035-25c9b1d133c6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/markdown/bootstrap-markdown.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/menu.ejs" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/routes/HomeController.js" afterPath="$PROJECT_DIR$/routes/HomeController.js" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/reviews.ejs" afterPath="$PROJECT_DIR$/views/reviews.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,8 +47,8 @@
       <file leaf-file-name="bootstrap-markdown.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/markdown/bootstrap-markdown.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1428">
-              <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state relative-caret-position="232">
+              <caret line="162" column="20" lean-forward="true" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -379,7 +374,7 @@
       <workItem from="1519121583810" duration="20842000" />
       <workItem from="1519165943502" duration="4884000" />
       <workItem from="1519180542750" duration="1681000" />
-      <workItem from="1519190888119" duration="4598000" />
+      <workItem from="1519190888119" duration="5086000" />
     </task>
     <task id="LOCAL-00001" summary="klm">
       <created>1518638125049</created>
@@ -444,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519195481439</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="klm">
+      <created>1519198544589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519198544589</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132566000" />
+    <option name="totallyTimeSpent" value="133054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -840,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/markdown/bootstrap-markdown.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
-          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="232">
+          <caret line="162" column="20" lean-forward="true" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
           <folding />
         </state>
       </provider>
