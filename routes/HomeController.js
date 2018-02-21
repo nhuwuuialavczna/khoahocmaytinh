@@ -12,7 +12,7 @@ router.get('/index', function (req, res, next) {
     if (!us) {
         res.redirect('/');
     } else {
-    res.render('index');
+        res.render('index', {title: 'trangchu'});
     }
 });
 

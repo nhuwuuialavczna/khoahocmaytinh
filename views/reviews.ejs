@@ -15,7 +15,7 @@
     <link data-require="fontawesome@4.1.0" data-semver="4.1.0" rel="stylesheet"
           href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
     <link rel="stylesheet"
-          href="https://cdn.rawgit.com/toopay/bootstrap-markdown/master/css/bootstrap-markdown.min.css"/>
+          href="/markdown/bootstrap-markdown.min.css"/>
     <script>
 
         $(document).ready(function () {
@@ -32,13 +32,17 @@
                         else $previewContainer.show().find('#comment-md-preview').html(content).find('table').addClass('table table-bordered table-striped table-hover');
                     }
                 });
+
             });
+            $('.md-editor').hide();
+
         });
 
     </script>
 </head>
 
-<body>
+<body style="font-family: monospace">
+<%include menu.ejs%>
 <div class="row">
     <div class="col-md-12">
         <textarea style="display: none" id="comment-md" name="comment"
