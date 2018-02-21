@@ -27,6 +27,7 @@ router.get('/login', function (req, res, next) {
         req.session.tk = us;
         res.json({data: 'ok'});
     } else {
+        req.session.tk = us;
         res.json({data: 'ok'});
     }
 });
