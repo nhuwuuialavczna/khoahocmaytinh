@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="958f6697-b13b-47e9-8035-25c9b1d133c6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/docs/LogicToan/C2_HeToanMenhDe.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/docs/LogicToan/C2_HeToanMenhDe.md" afterPath="$PROJECT_DIR$/docs/LogicToan/C2_HeToanMenhDe.md" />
+      <change beforePath="$PROJECT_DIR$/public/database/LT.js" afterPath="$PROJECT_DIR$/public/database/LT.js" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,10 +37,30 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/database/AI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LT.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/database/LT.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,6 +125,8 @@
         <option value="$PROJECT_DIR$/public/markdown/bootstrap-markdown.min.css" />
         <option value="$PROJECT_DIR$/views/reviews.ejs" />
         <option value="$PROJECT_DIR$/docs/LogicToan/C1_DaiSoMenhDe.md" />
+        <option value="$PROJECT_DIR$/public/database/LT.js" />
+        <option value="$PROJECT_DIR$/docs/LogicToan/C2_HeToanMenhDe.md" />
       </list>
     </option>
   </component>
@@ -196,6 +219,12 @@
               <item name="khoahocmaytinh" type="b2602c69:ProjectViewProjectNode" />
               <item name="khoahocmaytinh" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="khoahocmaytinh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="khoahocmaytinh" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="khoahocmaytinh" type="b2602c69:ProjectViewProjectNode" />
@@ -395,7 +424,7 @@
       <workItem from="1519165943502" duration="4884000" />
       <workItem from="1519180542750" duration="1681000" />
       <workItem from="1519190888119" duration="5432000" />
-      <workItem from="1519267579131" duration="1894000" />
+      <workItem from="1519267579131" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="klm">
       <created>1518638125049</created>
@@ -488,11 +517,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519268000922</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="klm">
+      <created>1519270218233</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1519270218233</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135294000" />
+    <option name="totallyTimeSpent" value="135470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -614,24 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/database/LT.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/database/LTDT.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/database/AI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -806,6 +828,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="e#758#2397#0#HTML" expanded="true" />
+            <element signature="e#792#1256#0#HTML" expanded="true" />
+            <element signature="e#1029#1241#0#HTML" expanded="true" />
+            <element signature="e#1308#1974#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -860,11 +888,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/database/AI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/database/LT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/LogicToan/C2_HeToanMenhDe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
