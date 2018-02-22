@@ -19,7 +19,7 @@ Chương 1 - Đại số mệnh đề
  
  - Mệnh đề A &and; B nhận giá trị T khi và chỉ khi A và B nhận giá trị T
  
- ###3. Phép hay (&or;, or, tuyển)
+###3. Phép hay (&or;, or, tuyển)
   | A   |  B     |   A &or; B |
   |:---:|:------:|:----------:|
   |  T  |    T   |       T    |
@@ -29,7 +29,7 @@ Chương 1 - Đại số mệnh đề
   
   - Mệnh đề A &or; B nhận giá trị F khi và chỉ khi A và B đều F
   
-  ###4. Phép kéo theo (&rarr;)
+###4. Phép kéo theo (&rarr;)
   | A   |  B     | A &rarr; B |
   |:---:|:------:|:----------:|
   |  T  |    T   |       T    |
@@ -45,7 +45,7 @@ Chương 1 - Đại số mệnh đề
   - Trong thực tế chúng ta có thể sử dụng mệnh đề nếu A thì B như sau: `Nếu bạn không bệnh, bạn sẽ không nghỉ học`. Ví dụ cho ta thấy mệnh đề
   A &rarr; B tương đương với &not; A &rarr; &not; B
   
-  ###5. Phép tương đương (&harr;)
+###5. Phép tương đương (&harr;)
   | A   |  B     | A &harr; B |
   |:---:|:------:|:----------:|
   |  T  |    T   |       T    |
