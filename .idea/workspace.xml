@@ -46,9 +46,9 @@
       <file leaf-file-name="C1_DaiSoMenhDe.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/LogicToan/C1_DaiSoMenhDe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="-5525">
-                <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="275">
+                <caret line="103" column="16" lean-forward="false" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -389,7 +389,7 @@
       <workItem from="1519165943502" duration="4884000" />
       <workItem from="1519180542750" duration="1681000" />
       <workItem from="1519190888119" duration="5432000" />
-      <workItem from="1519267579131" duration="230000" />
+      <workItem from="1519267579131" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="klm">
       <created>1518638125049</created>
@@ -468,15 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519199013597</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="klm">
+      <created>1519267850115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1519267850116</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133630000" />
+    <option name="totallyTimeSpent" value="133807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Azure Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -836,9 +842,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/LogicToan/C1_DaiSoMenhDe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-5525">
-            <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="275">
+            <caret line="103" column="16" lean-forward="false" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />

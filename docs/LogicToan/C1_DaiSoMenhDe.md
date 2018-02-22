@@ -99,9 +99,9 @@ Chương 1 - Đại số mệnh đề
               |   F   |   T   |   F   |   F    |       T       |       F      |    F       |
           
       + c. Tính ưu tiên của các phép tính:
-            1. &not; | 2. &and; | 3. &or;  |  4. &rarr;  |  5. &harr;
-            trong đó các phép toán &rarr;, &harr; xuất hiện nhiều lần thì ta lập ngoặc từ trái sang phải. Ví dụ A &rarr; B &rarr; C.
-            Thì lập ngoặc đúng sẽ như sau: ((A &rarr; B) &rarr; C)
+           * 1. &not; | 2. &and; | 3. &or;  |  4. &rarr;  |  5. &harr;
+              - trong đó các phép toán &rarr;, &harr; xuất hiện nhiều lần thì ta lập ngoặc từ trái sang phải. Ví dụ A &rarr; B &rarr; C.
+                Thì lập ngoặc đúng sẽ như sau: ((A &rarr; B) &rarr; C)
       
 ##III. Một số định nghĩa
 ####1. Hàm logic đại số:
